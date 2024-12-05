@@ -37,12 +37,12 @@ To run this website locally on your machine, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/my-static-website.git
+   git clone https://github.com/Maddz223/Milestone-Project-1.git
    ```
 
 2. **Navigate to the project directory:**
    ```bash
-   cd my-static-website
+   cd Milestone-Project-1
    ```
 
 3. **Open the `index.html` file:**
