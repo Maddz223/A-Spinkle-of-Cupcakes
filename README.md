@@ -4,7 +4,7 @@ This is a personal static website built using HTML, CSS, and JavaScript. The web
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
+- [Project Goals](#project-goals)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -13,13 +13,14 @@ This is a personal static website built using HTML, CSS, and JavaScript. The web
 - [Contributing](#contributing)
 - [License](#license)
 
-## Project Overview
+## Project Goals
 
-The website is designed to be a simple, fast-loading static site with the following features:
+The website is designed to be a simple, fast-loading, responsive static website with the following features:
 
-- A homepage with a brief introduction.
-- A portfolio section showcasing past projects.
-- A contact form for potential clients to reach out (static form, no backend).
+- A homepage with a brief introduction and pictures.
+- A about us page to give detailed infomation on who the company is.
+- A contact/order form for potential clients to reach out (static form, no backend).
+- A gallery page of products.
 - A responsive design optimized for both mobile and desktop screens.
 
 ## Technologies Used
