@@ -1,6 +1,6 @@
 # My Static Website readme.md template
 
-This is a personal static website built using HTML, CSS, and JavaScript. The website serves as a portfolio to showcase my work and provide basic contact information.
+This is a static website built using HTML and CSS. The website serves as a cupcake bakery website to showcase the companies products and provide basic contact information for the vistor's.
 
 ## Table of Contents
 
