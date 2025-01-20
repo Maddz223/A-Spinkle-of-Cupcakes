@@ -9,6 +9,9 @@
     --primary-color: #FF8FAB;
     --secondary-color: #FB6F92;
 }
+html{
+    background-color: var(--background-color);
+}
 
 /* Nav-bar hero image */
 #navbar{
@@ -21,9 +24,14 @@
 /* Background color for nav-bar popout*/
 .offcanvas{
     background-color: var(--background-color);
+    font-family: var(--primary-font);
+    font-size: 20px;
+    color: black;
 }
 /* Removed board from toggle button */
 .navbar-toggler{
+    top: 5px !important;
+    position: absolute !important;
     --bs-navbar-toggler-border-color: none;
     --bs-navbar-toggler-focus-width: 0;
 }
@@ -39,6 +47,5 @@
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.9px);
-    -webkit-backdrop-filter: blur(5.9px);
     border: 1px solid rgba(255, 229, 236, 0.11);
 }
