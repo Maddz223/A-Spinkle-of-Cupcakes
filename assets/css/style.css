@@ -2,7 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&family=Scope+One&display=swap');
 
 /* Css Variables*/
-
+:root{
+    --primary-font: "Scope One", sans-serif;
+    --secondary-font: "Mystery Quest", cursive;
+    --background-color: #FFC2D1;
+    --primary-color: #FF8FAB;
+    --secondary-color: #FB6F92;
+}
+/* Nav-bar hero image */
 #navbar{
     background: url(/assets/images/cupcakes-crumbs-and-doilies_2600x1083_crop_center.webp);
     background-position: center;
@@ -14,10 +21,9 @@
 .navbar-toggler{
     --bs-navbar-toggler-border-color: none;
     --bs-navbar-toggler-focus-width: 0;
-    
 }
 
-/*Style for main heading*/
+/* Style for main heading */
 #logo {
     font-family: var(--primary-font);
     color: rgba( 255, 111, 146, 1);
