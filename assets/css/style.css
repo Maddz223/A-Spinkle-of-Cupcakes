@@ -14,8 +14,13 @@ html{
 }
 body{
     padding-top: 220px;
+    font-family: var(--primary-font);
 }
-
+h1,
+h2,
+h3{
+    font-family: var(--secondary-font);
+}
 /* Nav-bar hero image */
 #navbar{
     background: url("../images/cupcakes-crumbs-and-doilies_2600x1083_crop_center.webp");
