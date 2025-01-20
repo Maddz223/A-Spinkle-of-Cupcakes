@@ -20,11 +20,11 @@ body{
 h1,
 h2,
 h3{
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
 }
 /* Nav-bar hero image */
 #navbar{
-    background: url("../images/cupcake-banner.webp");
+    background-color: var(--primary-color) !important;
     background-position: center;
     background-size: cover;
     height: 150px;
@@ -47,14 +47,7 @@ h3{
 
 /* Style for main heading */
 #logo {
-    font-family: var(--primary-font);
-    color: rgba( 255, 111, 146, 1);
-    text-shadow: 1px 1px 13px rgba(251, 111, 146, 0.68);
-    font-size: calc(1.25rem + 3.3vw);
-    -webkit-text-stroke:0.5px black;
-    background-color: rgba(255, 229, 236, 0.15);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.9px);
-    border: 1px solid rgba(255, 229, 236, 0.11);
+    font-family: var(--secondary-font);
+    color:aqua;
+    font-size: calc(1.5rem + 3.3vw);
 }
