@@ -13,7 +13,7 @@ html{
     background-color: var(--background-color);
 }
 body{
-    padding-top: 220px;
+    padding-top: 160px;
     font-family: var(--primary-font);
     background-color: var(--background-color);
 }
@@ -27,7 +27,7 @@ h3{
     background: url("../images/cupcakes-crumbs-and-doilies_2600x1083_crop_center.webp");
     background-position: center;
     background-size: cover;
-    height: 200px;
+    height: 150px;
     padding: 0px;
 }
 /* Background color for nav-bar popout*/
