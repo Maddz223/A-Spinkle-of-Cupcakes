@@ -9,6 +9,7 @@
     --primary-color: #FF8FAB;
     --secondary-color: #FB6F92;
 }
+
 /* Nav-bar hero image */
 #navbar{
     background: url(/assets/images/cupcakes-crumbs-and-doilies_2600x1083_crop_center.webp);
@@ -16,6 +17,10 @@
     background-size: cover;
     height: 300px;
     padding: 0px;
+}
+/* Background color for nav-bar popout*/
+.offcanvas{
+    background-color: var(--background-color);
 }
 /* Removed board from toggle button */
 .navbar-toggler{
