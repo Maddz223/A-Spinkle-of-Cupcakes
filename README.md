@@ -29,6 +29,7 @@ This project uses the following technologies:
 
 - **HTML**: For creating the basic structure of the website.
 - **CSS**: For styling the website and making it responsive.
+- **Bootstrap**: For styling the website (v5.3.3)
 - **Font Awesome**: For icons and vector images.
 - **Google Fonts**: For custom fonts.
 - **Favicon.io**: For generated favicons.
