@@ -31,6 +31,7 @@ This project uses the following technologies:
 - **CSS**: For styling the website and making it responsive.
 - **Font Awesome**: For icons and vector images.
 - **Google Fonts**: For custom fonts.
+- **Favicon.io**: For generated favicons.
 
 ## Installation
 
