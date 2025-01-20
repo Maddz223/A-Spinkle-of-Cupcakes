@@ -9,13 +9,17 @@
     --primary-color: #FF8FAB;
     --secondary-color: #FB6F92;
 }
+
+/*background color for the whole page*/
 html{
     background-color: var(--background-color);
 }
+
+/*padding for the header to be below the navbar*/
 body{
     padding-top: 160px;
     font-family: var(--primary-font);
-    background-color: var(--background-color);
+    background-color: var();
 }
 h1,
 h2,
@@ -24,10 +28,8 @@ h3{
 }
 /* Nav-bar hero image */
 #navbar{
-    background-color: var(--primary-color) !important;
-    background-position: center;
-    background-size: cover;
-    height: 150px;
+    background-color: var(--background-color) !important;
+    height: 140px;
     padding: 0px;
 }
 /* Background color for nav-bar popout*/
@@ -48,6 +50,6 @@ h3{
 /* Style for main heading */
 #logo {
     font-family: var(--secondary-font);
-    color:aqua;
-    font-size: calc(1.5rem + 3.3vw);
+    color:black;
+    font-size: calc(1.3rem + 3.5vw);
 }
