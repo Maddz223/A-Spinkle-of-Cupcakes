@@ -12,6 +12,9 @@
 html{
     background-color: var(--background-color);
 }
+body{
+    padding-top: 220px;
+}
 
 /* Nav-bar hero image */
 #navbar{
@@ -41,7 +44,7 @@ html{
     font-family: var(--primary-font);
     color: rgba( 255, 111, 146, 1);
     text-shadow: 1px 1px 13px rgba(251, 111, 146, 0.68);
-    font-size: calc(1rem + 3.3vw);
+    font-size: calc(1.25rem + 3.3vw);
     -webkit-text-stroke:0.5px black;
     background-color: rgba(255, 229, 236, 0.15);
     border-radius: 16px;
