@@ -10,16 +10,11 @@
     --secondary-color: #FB6F92;
 }
 
-/*background color for the whole page*/
-html{
-    background-color: var(--background-color);
-}
-
-/*padding for the header to be below the navbar*/
+/*padding for the header to be below the navbar, font family for content and background color for page.*/
 body{
     padding-top: 160px;
     font-family: var(--primary-font);
-    background-color: var();
+    background-color: var(--background-color);
 }
 
 /*Border around carousel images*/
@@ -36,16 +31,17 @@ body{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='fffffff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
    }
 
-h1,
-h2,
-h3{
-    font-family: var(--primary-font);
-}
 /* Nav-bar */
 #navbar{
-    background-color: var(--background-color) !important;
+    background-color: var(--secondary-color) !important;
     height: 140px;
     padding: 0px;
+}
+/* Style for main heading within the navbar*/
+#logo {
+    font-family: var(--secondary-font);
+    color:black;
+    font-size: calc(1.3rem + 3.5vw);
 }
 /* Background color for nav-bar popout*/
 .offcanvas{
@@ -54,17 +50,10 @@ h3{
     font-size: 20px;
     color: black;
 }
-/* Removed board from toggle button */
+/* Removed board & color from toggle button */
 .navbar-toggler{
-    top: 5px !important;
     position: absolute !important;
+    top: 5px !important;
     --bs-navbar-toggler-border-color: none;
     --bs-navbar-toggler-focus-width: 0;
-}
-
-/* Style for main heading */
-#logo {
-    font-family: var(--secondary-font);
-    color:black;
-    font-size: calc(1.3rem + 3.5vw);
 }
