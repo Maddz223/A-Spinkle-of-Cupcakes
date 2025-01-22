@@ -40,7 +40,7 @@ body{
 /* Style for main heading within the navbar*/
 #logo {
     font-family: var(--secondary-font);
-    color:black;
+    color:var(--background-color);
     font-size: calc(1.3rem + 3.5vw);
 }
 /* Background color for nav-bar popout*/
