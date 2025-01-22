@@ -62,6 +62,7 @@ body{
     position: absolute;
     background-color: var(--secondary-color);
     padding: 15px;
+    color: var(--background-color);
 }
 /* social icon size and spacing */
 i {
