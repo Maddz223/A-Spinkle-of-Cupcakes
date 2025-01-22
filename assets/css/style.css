@@ -57,9 +57,15 @@ body{
     --bs-navbar-toggler-border-color: none;
     --bs-navbar-toggler-focus-width: 0;
 }
+/* positioning of footer and styling */
 #contact-us{
     position: absolute;
-    width: 100%;
     background-color: var(--secondary-color);
     padding: 15px;
+}
+/* social icon size and spacing */
+i {
+    font-size: 3rem;
+    margin: 10px;
+    color: var(--background-color);
 }
