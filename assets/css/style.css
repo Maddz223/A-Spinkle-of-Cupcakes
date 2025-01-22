@@ -57,3 +57,9 @@ body{
     --bs-navbar-toggler-border-color: none;
     --bs-navbar-toggler-focus-width: 0;
 }
+#contact-us{
+    position: absolute;
+    width: 100%;
+    background-color: var(--secondary-color);
+    padding: 15px;
+}
