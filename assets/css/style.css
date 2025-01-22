@@ -21,6 +21,11 @@ body{
     font-family: var(--primary-font);
     background-color: var();
 }
+
+/*Border around carousel images*/
+.carousel-inner {
+    border-radius: 21% 79% 24% 76% / 79% 20% 80% 21%;
+}
 h1,
 h2,
 h3{
