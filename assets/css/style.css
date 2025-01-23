@@ -1,10 +1,10 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&family=Scope+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Scope+One&display=swap');
 
 /* Css Variables*/
 :root{
     --primary-font: "Scope One", sans-serif;
-    --secondary-font: "Mystery Quest", cursive;
+    --secondary-font: "Macondo", cursive;
     --background-color: #792DAF;
     --primary-color: #B09AD9;
     --secondary-color: #B665BC;
@@ -55,6 +55,11 @@ body{
     --bs-navbar-toggler-border-color: none;
     --bs-navbar-toggler-focus-width: 0;
 }
+/* Change color of pop out nav link font */
+.nav-item > a {
+    color: var(--primary-font-color);
+}
+
 /* positioning of footer and styling */
 #contact-us{
     position: absolute;
