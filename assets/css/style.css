@@ -14,7 +14,7 @@
 
 /*padding for the header to be below the navbar, font family for content and background color for page.*/
 body{
-    padding-top: 160px;
+    padding-top: 200px;
     font-family: var(--primary-font);
     background-color: var(--background-color);
     color: var(--primary-font-color);
@@ -32,7 +32,7 @@ body{
 /* Nav-bar */
 #navbar{
     background-color: var(--secondary-color) !important;
-    height: 140px;
+    height: 200px;
     padding: 0px;
 }
 /* Style for main heading within the navbar*/
