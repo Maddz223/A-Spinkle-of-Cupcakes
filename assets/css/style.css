@@ -1,10 +1,11 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Scope+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Merienda:wght@300..900&family=Scope+One&display=swap');
 
 /* Css Variables*/
 :root{
     --primary-font: "Scope One", sans-serif;
     --secondary-font: "Macondo", cursive;
+    --heading-font: "Merienda", cursive;
     --background-color: white;
     --primary-color: #B09AD9;
     --secondary-color: #B665BC;
@@ -19,13 +20,20 @@ body{
     background-color: var(--background-color);
     color: var(--primary-font-color);
 }
-
+.headings{
+    font-family: var(--heading-font);
+    font-size: 38px;
+    line-height: 1.8rem;
+}
 img, .divider {
     display: inline-block;
     max-width: 100%;
     height: auto;
 }
 
+.divider-contact{
+    filter: invert();
+}
 /*Color change for carousel next&previous icons*/
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='fffffff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
@@ -86,11 +94,13 @@ img, .divider {
     width: 100%;
     background-color: var(--secondary-color);
     padding: 15px;
-    color: var(--primary-font-color);
+    color: white;
+    
 }
+
 /* social icon size and spacing */
 i {
     font-size: 3rem;
     margin: 10px;
-    color: var(--primary-font-color);
+    color: white;
 }
