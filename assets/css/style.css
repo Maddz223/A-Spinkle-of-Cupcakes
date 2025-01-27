@@ -1,16 +1,14 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Merienda:wght@300..900&family=Scope+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Merienda:wght@300..900&display=swap');
 
 /* Css Variables*/
 :root{
-    --primary-font: "Scope One", sans-serif;
-    --secondary-font: "Macondo", cursive;
+    --primary-font: "ABeeZee", sans-serif;
     --heading-font: "Merienda", cursive;
-    --background-color: white;
     --primary-color: #B09AD9;
     --secondary-color: #B665BC;
     --thrid-color: #F195C3;
-    --primary-font-color: black;
+    --primary-font-color: #4b4342;
 }
 
 /*padding for the header to be below the navbar, font family for content and background color for page.*/
@@ -18,12 +16,21 @@ body{
     padding-top: 200px;
     font-family: var(--primary-font);
     background-color: var(--background-color);
-    color: var(--primary-font-color);
+}
+p{
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 400;
+    margin: 0;
+}
+address{
+    color: #4b4342;
 }
 .headings{
     font-family: var(--heading-font);
     font-size: 38px;
     line-height: 1.8rem;
+    color: #4b4342 !important;
 }
 .divider {
     display: inline-block;
@@ -52,9 +59,9 @@ body{
 }
 /* Style for main heading within the navbar*/
 #logo {
-    font-family: var(--secondary-font);
+    font-family: var(--heading-font);
     color:white;
-    font-size: calc(1.3rem + 3.5vw);
+    font-size: calc(1rem + 3.5vw);
 }
 /* Background color for nav-bar popout*/
 .offcanvas{
