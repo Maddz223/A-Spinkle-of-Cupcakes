@@ -5,11 +5,11 @@
 :root{
     --primary-font: "Scope One", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --background-color: #792DAF;
+    --background-color: white;
     --primary-color: #B09AD9;
     --secondary-color: #B665BC;
     --thrid-color: #F195C3;
-    --primary-font-color: white;
+    --primary-font-color: black;
 }
 
 /*padding for the header to be below the navbar, font family for content and background color for page.*/
