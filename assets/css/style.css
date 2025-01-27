@@ -25,14 +25,15 @@ body{
     font-size: 38px;
     line-height: 1.8rem;
 }
-img, .divider {
+.divider {
     display: inline-block;
     max-width: 100%;
     height: auto;
+    filter: brightness(0);
 }
 
 .divider-contact{
-    filter: invert();
+    filter: brightness(0) invert(100%)
 }
 /*Color change for carousel next&previous icons*/
 .carousel-control-prev-icon {
