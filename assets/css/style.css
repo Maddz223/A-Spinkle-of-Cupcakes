@@ -60,7 +60,7 @@ address{
 /* Style for main heading within the navbar*/
 #logo {
     font-family: var(--heading-font);
-    color:white;
+    color: #4b4342;
     font-size: calc(1rem + 3.5vw);
 }
 /* Background color for nav-bar popout*/
